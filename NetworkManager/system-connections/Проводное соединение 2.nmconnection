@@ -1,0 +1,25 @@
+[connection]
+id=Проводное соединение 2
+uuid=5f485c74-763e-4172-b527-062aca333041
+type=ethernet
+interface-name=ens33
+permissions=
+timestamp=1608295712
+
+[ethernet]
+cloned-mac-address=random
+mac-address=00:50:56:33:89:96
+mac-address-blacklist=
+
+[ipv4]
+address1=10.22.81.30/24,10.22.81.1
+dns=10.22.81.1;
+dns-search=
+method=manual
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]

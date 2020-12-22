@@ -1,0 +1,25 @@
+[connection]
+id=Проводное соединение 1
+uuid=7ef130a7-fcd9-32e2-b667-09f63da1e1ef
+type=ethernet
+autoconnect-priority=-999
+interface-name=ens33
+permissions=
+timestamp=1608294996
+
+[ethernet]
+mac-address=00:50:56:33:B0:54
+mac-address-blacklist=
+
+[ipv4]
+address1=10.22.81.30/24,10.22.81.1
+dns=10.22.81.1;
+dns-search=
+method=manual
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]
